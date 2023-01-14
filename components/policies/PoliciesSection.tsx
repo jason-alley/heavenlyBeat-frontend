@@ -12,8 +12,7 @@ export default function PoliciesSection() {
     'Contact Us for travelling in the GTA ( fees may apply).'
   ]
   return (
-    <SectionLayout className="policyItem-container" title="Policies" phrase={phrase} bgColor={bgcolor}>
-
+    <SectionLayout title="Policies" phrase={phrase} bgColor={bgcolor}>
         {
           policies.map((policy, index) => {
             return <PolicyComponent policy={policy} key={index} />
