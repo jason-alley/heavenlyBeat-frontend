@@ -3,11 +3,13 @@
     text-align: start;
     font-size: 1.1rem;
     font-weight: 400;
+    // border: 2px solid;
+    padding: 10px;
 }
 
 .policyItem--icon {
     font-size: 2rem;
-    color: #be90d4;
+    color: $light-wisteria;
 }
 
 .policyItem--content {

@@ -4,7 +4,7 @@ import PoliciesSection from '../components/policies/PoliciesSection'
 
 export default function Home() {
   return (
-    <div className="container-fluid">
+    <div className="">
       <PageHeader />
       <Hero />
       <PoliciesSection />

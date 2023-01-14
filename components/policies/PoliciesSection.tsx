@@ -8,7 +8,7 @@ export default function PoliciesSection() {
     'Contact Us for travelling in the GTA ( fees may apply).'
   ]
   return (
-    <section className="policiesSection container">
+    <section className="policiesSection">
       <h2 className="policiesSection--heading display-4">Policies</h2>
       <p className="policiesSection--phrase mt-5 mb-5">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus ab dolore corporis est beatae rem omnis numquam maxime assumenda. Molestiae.
