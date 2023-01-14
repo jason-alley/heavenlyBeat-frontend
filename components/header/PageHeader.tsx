@@ -2,6 +2,7 @@
 import React from "react";
 import Link from "next/link";
 import Image from 'next/image'
+import LogoImage from '../../public/assets/2815197801636456545.svg'
 
 export default function PageHeader() {
   return (
@@ -9,7 +10,12 @@ export default function PageHeader() {
       <header className="header">
         <nav className="navbar navbar-expand-lg bg-body-tertiary">
           <div className="container-fluid">
-            <Link className="navbar-brand fs-2" href="/">HEAVENLY-BEAT</Link>
+            <Link className="navbar-brand header-logo-text fs-2" href="/">HEAVENLY-BEAT
+              <Image 
+                src={LogoImage}
+                alt="Logo image"
+              />
+            </Link>
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
               <span className="navbar-toggler-icon"></span>
             </button>

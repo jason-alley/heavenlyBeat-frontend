@@ -1,5 +1,13 @@
+/* variables */
+$base-color: #000000;
+$light-wisteria:#be90d4;
+$kournikova:#fad859;
+
+
 @import './header.scss';
 @import './hero.scss';
+@import './policies.scss';
+@import './policy.scss';
 
 html,
 body {
@@ -20,7 +28,7 @@ a {
 .hover-underline-animation {
   display: inline-block;
   position: relative;
-  color: #3f4040;
+  color: $light-wisteria;
 }
 
 .hover-underline-animation::after {
@@ -31,7 +39,7 @@ a {
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: #3f4040;
+  background-color: $kournikova;
   transform-origin: bottom right;
   transition: transform 0.25s ease-out;
 }

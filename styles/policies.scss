@@ -1,0 +1,22 @@
+.policiesSection {
+    text-align: center;
+    margin-top: 9rem;
+}
+
+.policiesSection--heading {
+    font-weight: 400;
+}
+
+.policiesSection--phrase {
+    width: 20vw;
+    margin: 0 auto;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.policiesSection__policy-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
