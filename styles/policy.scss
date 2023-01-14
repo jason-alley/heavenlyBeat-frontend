@@ -1,9 +1,7 @@
 .policyItem {
-    max-width: 300px;
+    max-width: 350px;
     text-align: start;
-    font-size: 1.1rem;
-    font-weight: 400;
-    // border: 2px solid;
+    font-size: 1.2rem;
     padding: 10px;
 }
 
@@ -13,4 +11,28 @@
 }
 
 .policyItem--content {
+    font-weight: bold;
+}
+
+/* media queries */
+
+@media (max-width: 1024px) {
+    .policyItem {
+        max-width: 270px;
+    }
+}
+
+@media (max-width: 768px) {
+    .policyItem {
+        max-width: 240px;
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 425px) {
+    .policyItem {
+        max-width: 350px;
+        font-size: 1.1rem;
+        margin-bottom: 1.2rem;
+    }
 }
