@@ -1,6 +1,6 @@
 .LayoutSection {
     text-align: center;
-    margin-top: 9rem;
+    margin-top: 4rem;
     padding-top: 10px;
     padding-bottom: 1px;
 }
@@ -19,7 +19,7 @@
 
 .LayoutSection__item-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     margin: 4rem 12rem;
     margin-top: 5rem;
 }
@@ -32,6 +32,7 @@
     .LayoutSection__item-container {
         margin-left: 3rem;
         margin-right: 3rem;
+        flex-wrap: wrap;
     }
 }
 

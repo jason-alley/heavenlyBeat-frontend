@@ -5,7 +5,7 @@ import ServicesSection from '../components/services/ServicesSection'
 
 export default function Home() {
   return (
-    <div className="">
+    <div>
       <PageHeader />
       <Hero />
       <PoliciesSection />
