@@ -1,0 +1,62 @@
+.policiesSection {
+    text-align: center;
+    margin-top: 9rem;
+    padding-top: 10px;
+    padding-bottom: 1px;
+    background-color: rgba(243, 240, 248, 0.3)
+}
+
+.policiesSection--heading {
+    font-weight: 400;
+    margin-top: 4rem;
+}
+
+.policiesSection--phrase {
+    width: 30vw;
+    margin: 0 auto;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+.policiesSection__policy-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 4rem 12rem;
+    margin-top: 5rem;
+}
+
+@media (max-width: 1024px) {
+    .policiesSection--phrase {
+        width: 40vw;
+    }
+
+    .policiesSection__policy-container {
+        margin-left: 3rem;
+        margin-right: 3rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .policiesSection--phrase {
+        width: 60vw;
+    }
+
+    .policiesSection__policy-container {
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+    }
+}
+
+@media (max-width: 425px) {
+    .policiesSection {
+        margin-top: 3rem;
+    }
+    .policiesSection--phrase {
+        width: 75vw;
+    }
+
+    .policiesSection__policy-container {
+        flex-direction: column;
+        align-items: center;
+    }
+}

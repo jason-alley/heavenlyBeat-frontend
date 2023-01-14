@@ -1,12 +1,13 @@
-import Head from 'next/head'
+import PageHeader from '../components/header/PageHeader'
+import Hero from '../components/hero/Hero'
+import PoliciesSection from '../components/policies/PoliciesSection'
 
 export default function Home() {
   return (
-    <div>
-       <Head>
-        <title>HEAVENLY-BEAT</title>
-        <meta property="og:title" content="HEAVENLY-BEAT" key="title" />
-      </Head>
+    <div className="">
+      <PageHeader />
+      <Hero />
+      <PoliciesSection />
     </div>
   )
 }
