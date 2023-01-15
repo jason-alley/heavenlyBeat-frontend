@@ -7,7 +7,7 @@ import LogoImage from '../../public/assets/2815197801636456545.svg'
 export default function PageHeader() {
   return (
     <>
-      <header className="header">
+      <header className="header container">
         <nav className="navbar navbar-expand-lg bg-body-tertiary">
           <div className="container-fluid">
             <Link className="navbar-brand header-logo-text fs-2" href="/">HEAVENLY-BEAT
