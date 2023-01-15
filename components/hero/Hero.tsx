@@ -14,7 +14,7 @@ export default function Hero() {
         </div>
         <div className="heroContainer__content">
             <h1 className="mb-5">Lorem ipsum dolor sit amet consectetur adipisicing.</h1>
-            <Button text="Contact Me"/>
+            <Button text="Contact Me" type="btn-outline-warning"/>
             <p className='content-phrase mt-4'>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque eius, qui tenetur soluta, tempora quam repellendus ut maxime perferendis voluptatum aspernatur sed veritatis expedita accusantium sapiente amet eos aliquam repudiandae perspiciatis?
             </p>
