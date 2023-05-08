@@ -2,20 +2,19 @@ import React from 'react'
 import SectionLayout from '../SectionLayout'
 import PolicyComponent from './PolicyComponent'
 
-export default function PoliciesSection() {
-  const bgcolor = 'rgba(243, 240, 248, 0.3)'
-  const phrase = 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus ab dolore corporis est beatae rem omnis numquam maxime assumenda. Molestiae.';
+interface Policies {
+  policies: Array<Object>;
+}
 
-  const policies = [
-    '20$ deposit required upon booking to secure your spot Deposits are non-refundable.',
-    'You have a 15 minute grace period-After that a 10$ fee is applied to you remaining balance. After 30 minutes your appointment will be cancelled.',
-    'Contact Us for travelling in the GTA ( fees may apply).'
-  ]
+
+export default function PoliciesSection({policies, description}) {
+  const bgcolor = 'rgba(243, 240, 248, 0.3)'
+
   return (
-    <SectionLayout title="Policies" phrase={phrase} bgColor={bgcolor}>
+    <SectionLayout title="Policies" phrase={description[0].description} bgColor={bgcolor}>
         {
-          policies.map((policy, index) => {
-            return <PolicyComponent policy={policy} key={index} />
+          policies.map((policy, _id) => {
+            return <PolicyComponent policy={policy.policy} key={policy._id} />
           })
         }
     </SectionLayout>
